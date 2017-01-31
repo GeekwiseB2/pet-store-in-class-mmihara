@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/*UNIVERSALS*/
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+
+header.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#logo-img {
+  width: 105px;
+  height: 95px;
+}
+
+#logo-img~span {
+  display: inline-block;
+  font-family: 'Satisfy', cursive;
+  color: #F3777C;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 25px;
+}
+
+.nav-pills {
+  float: right;
+}
+
+.nav>li>a {
+  font-size: 22px;
+}
+
+/*CALL TO ACTION*/
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+
+.jumbotron>p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 36px;
+  margin-top: 65px;
+}
+
+/*FEATURED SECTION*/
+.btn-primary {
+  background-color: #5BC0DE;
+  color: #fff;
+  border: none;
+}
+
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 16px;
+}
