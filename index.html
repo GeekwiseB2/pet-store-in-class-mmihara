@@ -12,31 +12,35 @@
 
 </head>
 <body>
-	<!-- HEADER -->
+	<!-- HEADER STARTS HERE -->
 	<header class="container-fluid">
-		<div id="logo-wrapper">
-			<img src="img/petstore_logo.png" alt="Logo" class="img-responsive pull-left" id="logo-img">
-			<span>pet store</span>
-		</div>
-		<ul class="nav nav-pills">
-			<li role="presentation"><a href="#">Home</a></li>
-			<li role="presentation"><a href="#">Products</a></li>
-			<li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
+		<!-- <div class="container"> -->
+			<div id="logo-wrapper">
+				<img src="img/petstore_logo.png" alt="Logo" class="img-responsive pull-left" id="logo-img">
+				<span>pet store</span>
+			</div>
+			<ul class="nav nav-pills pull-right">
+				<li role="presentation"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#">Products</a></li>
+				<li role="presentation"><a href="#">Contact Us</a></li>
+			</ul>
+		<!-- </div> -->
 	</header>
 
 	<!-- CALL TO ACTION STARTS -->
-		<div class="jumbotron">
-			<p class="text-center">The products they love. Prices that you like.</p>
-		</div>
+	<div class="jumbotron">
+		<p class="text-center">The products they love. Prices that you like.</p>
+	</div>
 
 	<!-- FEATURED SECTION STARTS HERE -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9"> <!-- featured section starts-->
+			<div class="col-md-8"> <!-- featured section starts-->
 				<div class="row">
-					<h4>FEATURED</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, asperiores atque laboriosam minus, sapiente praesentium iusto cum qui cupiditate amet fugit recusandae quasi nesciunt rem nulla perferendis earum, cumque nam.</p>
+					<div class="col-md-12">
+						<h2>FEATURED</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, asperiores atque laboriosam minus, sapiente praesentium iusto cum qui cupiditate amet fugit recusandae quasi nesciunt rem nulla perferendis earum, cumque nam.</p>
+					</div>
 				</div>
 				<div class="row"> <!-- Featured thumbnails starts -->
 					<div class="col-md-4">
@@ -83,11 +87,49 @@
 					</div>
 				</div> <!-- Featured thumbnails ends -->
 			</div> <!--  featured section ends  -->
-			<div class="col-md-3"> <!--  services section starts  -->
-
+			<div class="col-md-3 col-md-offset-1" id="services-section"> <!--  services section starts  -->
+				<div class="row"> <!-- nav stacked pill start -->
+					<h2>SERVICES</h2>
+					<ul class="nav nav-pills nav-stacked" id="services-nav">
+					  <li role="presentation"><a href="#">Adopt a Cat</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></li>
+					  <li role="presentation"><a href="#">Adopt a Dog</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></li>
+					  <li role="presentation"><a href="#">Adopt a Fish</a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></li>
+					</ul>
+				</div> <!-- nav stacked pill end -->
 			</div> <!--  services section ends  -->
 		</div>
 	</div>
+
+	<!-- FOOTER SECTION STARTS HERE -->
+	<footer class="cointainer-fluid">
+		<div class="container">
+			<div class="row" id="grey-text">
+				<div class="col-md-3">
+					<img src="img/petstore_logo.png" alt="Logo" class="img-responsive" id="footer-logo">
+				</div>
+				<div class="col-md-3 border-left-grey grey-text">
+					<address>
+						Pet Store <br/>
+						Fresno, CA <br/>
+						info@petstore.com
+					</address>
+				</div>
+				<div class="col-md-3 border-left-grey grey-text">
+					<a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+					<a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+					<a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>&copy;Pet Store, Inc. All rights reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

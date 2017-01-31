@@ -28,10 +28,6 @@ header.container-fluid {
   margin-top: 25px;
 }
 
-.nav-pills {
-  float: right;
-}
-
 .nav>li>a {
   font-size: 22px;
 }
@@ -61,4 +57,45 @@ header.container-fluid {
 .thumbnail {
   background-color: #EDF1F4;
   padding: 16px;
+}
+
+/*SERVICES SECTION*/
+#services-section {
+  text-align: center;
+}
+
+#services-nav>li>a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/*FOOTER SECTION*/
+footer {
+  background-color: #231F20;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#grey-text {
+  color: #BFC0C1;
+  font-size: 16px;
+}
+
+#footer-logo {
+  height: 100px;
+  width: 120px;
+}
+
+.border-left-grey {
+  border-left: 1px solid #302F2F;
+}
+
+.border-left-grey>a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+footer>.col-md-12 {
+  text: #302F2F;
 }
